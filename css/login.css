@@ -1,0 +1,44 @@
+.login-modal{
+    border-radius: 25px;
+    max-height: 90vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.login-modal input{
+    border-radius: 10px;
+}
+.login-modal a{
+    font-size: 15px;
+    margin-top:50px ;
+}
+.menu ul li a{
+    margin-top: 10px;
+}
+.modal-title{
+    margin-top: 30px;
+}
+.menu hr{
+    margin: 5px;
+}
+.forget{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.modal-body{
+    padding-bottom: 0px;
+}
+input:focus{
+    outline-color: #2541df;
+}
+#landload_opt{
+    display: none;
+}
+.s-logo-img{
+    align-items:start;
+    width: 25px;
+    height: 25px;
+}
+.abcRioButton .abcRioButtonLightBlue{
+    width: 100%;
+}
+
