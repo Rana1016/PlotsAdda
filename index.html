@@ -880,11 +880,25 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 5,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
       },
     });
   </script>
@@ -893,7 +907,7 @@
       </div>
     </div>
     <div class="city_section container my-2">
-      <h3>Most Popular Locations</h3>
+      <h4 class="my-4"> <span class="location_heading rounded p-2">Most Popular Locations in Pakistan</span></h4>
       <div class="city_container">
         <a class="text-dark"><div class="item"> <span><img src="./assets/city_arrows.png" alt="" class="city_arrow"></span> Lahore</div></a>
        <a class="text-dark"> <div class="item"> <span><img src="./assets/city_arrows.png" alt="" class="city_arrow"></span> Islamabad</div></a>
