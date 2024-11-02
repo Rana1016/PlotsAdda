@@ -227,3 +227,7 @@ a {
     background-color: #129C35;
     color:#fafafa;
   }
+  .close_btn{
+    margin: 0px;
+    background: red;
+  }
